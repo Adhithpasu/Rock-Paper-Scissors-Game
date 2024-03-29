@@ -3,5 +3,5 @@ This is a very simple Front End rock, paper, scissors game. It gives you buttons
 
 Quick start:
 
-  $ npm install
-  $ npm start
+$ npm install 
+$ npm start
