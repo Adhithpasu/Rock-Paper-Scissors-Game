@@ -29,14 +29,14 @@ function start(){
     scoreEl.textContent = "Player's Score: " + 0
     gameStarted = true
     playerMessageEl.textContent = "Game details: Game has started you may select Rock, Paper or scissors"
-    startEl.textContent = "Rest Game"
+    startEl.textContent = "Reset Game"
 }
 function computers_turn(){
     computers_choice = Math.floor(Math.random() * 3)
     if (computers_choice == 0){
         computers_option = "Rock"
     }
-    else if (computers_choice == 0){
+    else if (computers_choice == 1){
         computers_option = "Paper"
     }
     else{
